@@ -1,0 +1,22 @@
+{
+  "name": "async-data-fetcher",
+  "version": "1.0.0",
+  "description": "A robust async data fetching utility with retry logic",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts",
+    "examples": "ts-node src/examples.ts",
+    "clean": "rm -rf dist"
+  },
+  "keywords": ["typescript", "fetch", "async", "retry", "error-handling"],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "ts-node": "^10.9.0",
+    "typescript": "^5.3.0"
+  }
+}
